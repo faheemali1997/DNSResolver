@@ -1,0 +1,61 @@
+PART A : Output for mydig.py
+
+==========================================================================================
+(FCN) faheemali@Faheems-MacBook-Air Ali-Faheem-Assignement1 % python mydig.py cnn.com A
+Final Answer QUESTION SECTION:
+cnn.com. IN A
+
+ANSWER SECTION:
+cnn.com. 60 IN A 151.101.1.67
+cnn.com. 60 IN A 151.101.193.67
+cnn.com. 60 IN A 151.101.129.67
+cnn.com. 60 IN A 151.101.65.67
+
+Query Time: 0.07310795783996582 sec
+Thu Sep 23 18:04:19 2021
+MSG SIZE rcvd: 48
+
+==========================================================================================
+
+(FCN) faheemali@Faheems-MacBook-Air Ali-Faheem-Assignement1 % python mydig.py cnn.com MX
+Final Answer QUESTION SECTION:
+cnn.com. IN MX
+
+ANSWER SECTION:
+cnn.com. 300 IN MX 10 mxa-00241e02.gslb.pphosted.com.
+cnn.com. 300 IN MX 10 mxb-00241e02.gslb.pphosted.com.
+
+Query Time: 0.07083296775817871 sec
+Thu Sep 23 18:05:49 2021
+MSG SIZE rcvd: 48
+
+==========================================================================================
+
+(FCN) faheemali@Faheems-MacBook-Air Ali-Faheem-Assignement1 % python mydig.py cnn.com NS
+Final Answer QUESTION SECTION:
+cnn.com. IN NS
+
+ANSWER SECTION:
+cnn.com. 3600 IN NS ns-1086.awsdns-07.org.
+cnn.com. 3600 IN NS ns-1630.awsdns-11.co.uk.
+cnn.com. 3600 IN NS ns-47.awsdns-05.com.
+cnn.com. 3600 IN NS ns-576.awsdns-08.net.
+
+Query Time: 0.0725870132446289 sec
+Thu Sep 23 18:06:02 2021
+MSG SIZE rcvd: 48
+
+==========================================================================================
+
+(FCN) faheemali@Faheems-MacBook-Air Ali-Faheem-Assignement1 % python mydig.py google.co.jp A 
+Final Answer QUESTION SECTION:
+google.co.jp. IN A
+
+ANSWER SECTION:
+google.co.jp. 300 IN A 142.250.176.195
+
+Query Time: 0.5131042003631592 sec
+Thu Sep 23 18:07:28 2021
+MSG SIZE rcvd: 48
+
+==========================================================================================

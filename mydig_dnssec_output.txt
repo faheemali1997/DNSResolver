@@ -1,0 +1,29 @@
+PART B : Output of mydig_dnssec.py
+
+==========================================================================================
+
+(FCN) faheemali@Faheems-MacBook-Air Ali-Faheem-Assignement1 % python mydig_dnssec.py verisigninc.com A
+Final Answer QUESTION SECTION:
+verisigninc.com. IN A
+
+ANSWER SECTION:
+verisigninc.com. 60 IN A 209.131.162.45
+verisigninc.com. 60 IN A 69.58.187.40
+
+Query Time: 0.15595412254333496 sec
+Thu Sep 23 18:13:16 2021
+MSG SIZE rcvd: 48
+
+==========================================================================================
+
+(FCN) faheemali@Faheems-MacBook-Air Ali-Faheem-Assignement1 % python mydig_dnssec.py dnssec-failed.org A
+DNSSEC Validation Failed
+
+==========================================================================================
+
+(FCN) faheemali@Faheems-MacBook-Air Ali-Faheem-Assignement1 % python mydig_dnssec.py google.com A
+DNSSEC not supported
+
+==========================================================================================
+
+
